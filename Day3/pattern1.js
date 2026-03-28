@@ -1,12 +1,12 @@
-//Pattern 1: Print nxn Star Square
-//Print a square pattern of stars (*) of size n x n.
+/*      Pattern 1: Print nxn Star Square
+        Print a square pattern of stars (*) of size n x n.
 
-//      Output
-//      * * * *
-//      * * * *
-//      * * * *
-//      * * * *
-
+        Output
+        * * * *
+        * * * *
+        * * * *
+        * * * *               
+*/
 
 function squarepattern (n){
 

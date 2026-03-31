@@ -20,8 +20,4 @@ function pattern6 (n){
         console.log(" * ")
  
     }
-
-
 }
-
-//

@@ -13,6 +13,8 @@ Output
 
 function numbers(n){
     
+    
+
     for(i=0; i<n; i++){
 
         let row = " "

@@ -12,12 +12,16 @@ Output
 */
 
 
-function pattern6 (n){
+function pattern6(num){
 
-    for(i=0 ; i <n ; i++ )
-    {
- 
-        console.log(" * ")
- 
+  for(i=0;i<num;i++){
+    let row  = ""
+    for (j=0;j<=i;j++){
+
+       row  = row + "*";
     }
+console.log(row)
+  }
 }
+
+pattern6(4);

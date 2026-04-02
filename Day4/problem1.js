@@ -35,3 +35,4 @@ function countNumber (num){
     console.log(count)
 }
   countNumber(123)
+  //

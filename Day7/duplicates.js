@@ -12,6 +12,6 @@ for(i = 0; i<a.length; i++){
         x++;
         a[x] = a[i]
     }
-
+ return p = x+1;
+ console.log(p)
 }
-console.log(a)

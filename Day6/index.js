@@ -2,12 +2,48 @@
 Print n to 1 using recursion
 */
 
-function fun(n){
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function fun(n){
     if(n==0) return;
-    console.log(n)
-    n=n-1;
-    fun(n)
+    console.log(n);
+    fun(n-1)
 }
-a=5;
-fun(a)
+
+console.log(fun(4));

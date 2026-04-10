@@ -2,16 +2,19 @@
 
 let arr = [2,-9,17,0,1,-10,-4,8]
 
-function negativeNumber(arr){
-let num = 0;
-    for(i = 0;i<arr.length;i++){
+function finder(arr){
+
+    let num = 0
+    for(i=0; i<arr.length; i++){
         if(arr[i]<0){
-            num++;
-            
+            num++
+           console.log(arr[i]) 
+
         }
+
     }
-   console.log(num)
-   return arr;
+   
+    console.log(num)
 }
 
-console.log(negativeNumber(arr))
+console.log(finder(arr))

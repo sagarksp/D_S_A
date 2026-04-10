@@ -4,18 +4,12 @@ Print 1 to n using recursion
 
 */
 
-num = 1;
-n=5
-let copy = n
-function fun(n){
+function fun(num){
+   
 
-    if(num>copy) return ;
- 
-console.log(num)
-   num=num+1;
-    n=n-1
-    fun(n)
-    
+    if(num <1) return;
+   
+    fun(num-1)
+     console.log(num)
 }
-
-fun(n)
+console.log(fun(4))

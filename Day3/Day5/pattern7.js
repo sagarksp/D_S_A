@@ -12,6 +12,40 @@ Output
 */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function pattern7(num){
     
     for(i=0; i<num ; i++){

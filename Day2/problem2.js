@@ -2,19 +2,16 @@
 
 let arr = [5,0,10,8,17,1]
 
-let maxnumber=arr[0]
-function findMax(arr){
-for(i=0;i<arr.length;i++){
 
+function large(arr){
 
-if(arr[i]>maxnumber){
-    maxnumber = arr[i]
-    
+    let largenum = 0;
+    for(i=0; i<arr.length; i++){
+        if(arr[i]>largenum){
+            largenum = arr[i]
+        }
+    }
+    console.log(largenum)
 }
 
-}
-return maxnumber
-}
-
-
-console.log(findMax(arr));
+large(arr)
